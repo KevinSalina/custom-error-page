@@ -1,0 +1,33 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 40px 0;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto 20px;
+}
+
+.asky {
+  border: 1px solid rgb(106, 174, 207);
+  border-radius: 8px;
+  box-shadow: rgb(102, 102, 102) 0px 5px 20px -5px;
+  display: inline-block;
+  height: 50px;
+  padding-top: 20px;
+  text-align: center;
+  width: 250px;
+}
